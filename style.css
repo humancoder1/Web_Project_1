@@ -13,16 +13,27 @@ html, body{
 .nav{
     height: 100px;
     width : 100%;
-    background-color: rgb(58, 44, 26);
+    /* background-color: rgb(241, 213, 177); */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 3vw;
 } 
-
+.nav h2{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.nav h4{
+    font-size: 1.5vw;
+}
+.nav i{
+    font-size: 1.5vw;
+    font-weight: bold;
+    display : none;
+}
 .nav-part2{
     display: flex;
-    background-color: azure;
+    /* background-color: azure; */
     justify-content: space-between;
     align-items: center;
     gap: 4vw;
@@ -31,7 +42,22 @@ html, body{
 
 
 @media (max-width : 600px) {
-    .box1{
-        background-color: bisque;
+    .nav{
+        height:60px;
+        background-color:lightseagreen;
+        color: #ffffff;
+        padding: 0 5vw;
+    }
+
+    .nav h2{
+        font-size: 6vw;
+    }
+    .nav h4{
+        font-size: 4vw;
+        display: none;
+    }
+    .nav i{
+        display: block;
+        font-size: 6vw
     }
 }
