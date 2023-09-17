@@ -4,21 +4,29 @@ html, body{
     /* background-color: black; */
 }
 
-.main_box{
-    height:70%;
-    width: 50%;
-    background-color: rgb(65, 252, 252);
+.main{
+    height:100%;
+    width: 100%;
+    /* background-color: rgb(65, 252, 252); */
+    position: relative; /*it lets stabilize children elements inside a parent container*/
 }
-.box1{
-    height: 50%;
-    width: 40%;
-    /* border: 5px  rgb(231, 23, 23); */
-    background-color: khaki;
-    font-size: 20px;
+.nav{
+    height: 100px;
+    width : 100%;
+    background-color: rgb(58, 44, 26);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+} 
 
-}
-h1{
-    color:brown;
+.nav-part2{
+    display: flex;
+    background-color: azure;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+
 }
 
 
