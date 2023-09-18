@@ -27,7 +27,7 @@ html, body{
     padding: 0 5vw;
 } 
 .nav h2{
-    font-size: 2vw;
+    font-size: 1.8vw;
     font-weight: 700;
 }
 .nav h4{
@@ -52,7 +52,7 @@ html, body{
     height: calc(100% - 100px);
     width: 100%;
     display: flex;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     position: relative;
 }
 
@@ -67,7 +67,7 @@ html, body{
     line-height: 4.4vw;
 }
 .left span{
-    color : lightseagreen;
+    color : #FF735C;
 }
 .left p{
     font-size: 1.2vw;
@@ -80,7 +80,7 @@ html, body{
 .left button{
     font-size: 1.5vw;
     padding: 1vw 2vw;
-    background-color: lightseagreen;
+    background-color: #FF735C;
     color:#ffffff;
     border : none;
     border-radius: 3vw;
@@ -91,7 +91,11 @@ html, body{
 .right{
     height: 100%;
     width:45%;
-    background-color: rgb(186, 97, 97);
+    /* background-color: rgb(186, 97, 97); */
+}
+.right img{
+    height:100%;
+    width:100%;
 }
 
 
